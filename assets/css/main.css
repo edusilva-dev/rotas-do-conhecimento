@@ -1,5 +1,5 @@
 main {
-  width: 100%;
+  width: 1280px;
 
   padding: 30px 40px;
 }
@@ -104,15 +104,15 @@ main {
 
 /* Ponteiros do mapa */
 .first__yellow_point {
-  width: 15px;
+  width: 14px;
   height: 15px;
 
   border-radius: 100%;
   background-color: var(--neon-yellow);
 
   position: absolute;
-  right: 42.55%;
-  top: 9.1%;
+  right: 42.5%;
+  top: 9.2%;
 
   opacity: 0;
 
@@ -333,6 +333,12 @@ main {
   text-decoration: none;
 
   cursor: pointer;
+
+  transition: .12s ease-in-out;
+}
+
+.cards__card__release_and_see_more__read_more:hover {
+  filter: brightness(1.5);
 }
 
 @media (max-width: 1060px) {

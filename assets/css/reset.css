@@ -3,6 +3,7 @@
 :root {
   --black: #151515;
   --white: #FFF;
+  --light-grey: #BCBCBC;
   --grey: #A0A0A0;
   --dark-grey: #363636;
   --very-dark-grey: #292929;
@@ -24,6 +25,10 @@
 body {
   background-color: var(--black);
   color: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 ul, li {

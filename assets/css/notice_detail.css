@@ -1,0 +1,142 @@
+main {
+  width: 1280px;
+}
+
+.notice_detail {
+  width: 100%;
+
+  margin-top: 105px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.notice_detail__title {
+  color: var(--white);
+  font-weight: 350;
+  font-size: 28px;
+
+  padding-bottom: 10px;
+
+  border-bottom: 1px solid var(--neon-blue);
+}
+
+.notice_detail__about {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 10px;
+}
+
+.notice_detail__write_for,
+.notice_detail__published_date {
+  color: var(--light-grey);
+  font-style: italic;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.notice_detail__first_part {
+  display: flex;
+
+  margin-top: 80px;
+}
+
+.notice_detail__first_part__left_column {
+  width: calc(50% - 30px);
+}
+
+.notice_detail__image {
+  width: 100%;
+  height: 471px;
+}
+
+.notice_detail__image__picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.notice_detail__first_part__right_column {
+  width: calc(50% - 30px);
+  margin-left: 60px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 350;
+  text-align: justify;
+
+  margin-top: 30px;
+}
+
+.notice_detail__second_part {
+  margin-top: 80px;
+}
+
+.notice_detail__third_part {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 75px;
+}
+
+.notice_detail__third_part__texts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notice_detail__third_part__texts__left_column {
+  margin-right: 30px;
+}
+
+.notice_detail__third_part__texts__right_column {
+  margin-left: 30px;
+}
+
+.notice_detail__last_part {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 80px;
+}
+
+.notice_detail__last_part__text_and_image {
+  display: flex;
+  justify-content: space-between;
+}
+
+.notice_detail__last_part__left_column {
+  margin-top: 30px;
+}
+
+.notice_detail__last_part__right_column {
+  margin-left: 60px;
+}
+
+.notice_detail__last_part__right_column__image {
+  width: 469px;
+  height: 314px;
+}
+
+.notice_detail__last_part__right_column__image__picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.separator {
+  width: 100%;
+  height: 1px;
+
+  background-color: var(--grey);
+
+  margin-top: 80px;
+  margin-bottom: 75px;
+}
