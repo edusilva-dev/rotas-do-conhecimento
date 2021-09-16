@@ -103,7 +103,38 @@ footer {
 }
 
 @media (max-width: 1030px) {
+  footer {
+    width: 100%;
+    height: fit-content;
+
+    flex-direction: column;
+  }
+
+  .footer__left_column {
+    width: 100%;
+
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .footer__menu {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .footer__menu::before {
+    display: none;
+  }
+
+  .footer__menu__list {
+    padding: 20px 0;
+  }
+
+  .footer__right_column {
+    width: 100%;
+  }
+
   .foter__text {
-    width: 200px;
+    width: 100%;
   }
 }

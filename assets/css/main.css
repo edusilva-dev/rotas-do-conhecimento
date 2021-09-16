@@ -342,6 +342,18 @@ main {
 }
 
 @media (max-width: 1060px) {
+  main {
+    width: 100%;
+  }
+
+  .main__route_note {
+    flex-direction: column;
+  }
+
+  .main__route_note__image {
+    min-width: 100%;
+  }
+
   .main__news__list {
     justify-content: space-between;
   }
@@ -353,5 +365,14 @@ main {
   .cards__card.middle {
     margin-left: 0;
     margin-right: 0;
+  }
+}
+
+@media (max-width: 656px) {
+  .cards__card {
+    width: 100%;
+
+    margin: unset!important;
+    margin-bottom: 50px!important;
   }
 }

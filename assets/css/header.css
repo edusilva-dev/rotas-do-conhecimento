@@ -72,6 +72,10 @@ header {
 }
 
 @media (max-width: 1090px) {
+  header {
+    width: 100%;
+  }
+
   .menu__list,
   .header__right_column .header__logo {
     display: none;
