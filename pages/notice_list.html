@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <!-- <meta name="viewport" content="width=desktop-width, initial-scale=1.0"> -->
+  <meta name="viewport" content="width=desktop-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/css/reset.css">
   <link rel="stylesheet" href="../assets/css/header.css">
   <link rel="stylesheet" href="../assets/css/footer.css">
   <link rel="stylesheet" href="../assets/css/notice_list.css">
-  <title>Document</title>
+  <title>Sobre nós</title>
 </head>
 <body>
   <header>
@@ -22,7 +22,7 @@
       <nav class="header__nav menu">
         <ul class="menu__list">
           <li class="menu__list__item">
-            <a href="#" class="menu__list__item__a">SOBRE NÓS</a>
+            <a href="about_us.html" class="menu__list__item__a">SOBRE NÓS</a>
           </li>
 
           <li class="menu__list__item">
@@ -30,15 +30,15 @@
           </li>
 
           <li class="menu__list__item">
-            <a href="#" class="menu__list__item__a">EVENTOS</a>
+            <a href="events.html" class="menu__list__item__a">EVENTOS</a>
           </li>
           
           <li class="menu__list__item">
-            <a href="#" class="menu__list__item__a">ROTAS</a>
+            <a href="routes.html" class="menu__list__item__a">ROTAS</a>
           </li>
 
           <li class="menu__list__item">
-            <a href="#" class="menu__list__item__a">CONTATOS</a>
+            <a href="contact.html" class="menu__list__item__a">CONTATOS</a>
           </li>
         </ul>
       </nav>
@@ -51,103 +51,113 @@
     </div>
   </header>
 
-  <main>
-    <div class="notice_detail">
-      <h2 class="notice_detail__title"></h2>
+  <main class="notice_list">
+    <div class="notice_list__header">
+      <div class="notice_list__header__title">Notícias das rotas do conhecimento</div>
 
-      <div class="notice_detail__about">
-        <span class="notice_detail__write_for">Pedro Juan</span>
+      <div class="notice_list__header__filters filters">
+        <div class="filters__order_by filter">Ordenar por: data</div>
 
-        <span class="notice_detail__published_date">Pedro Juan</span>
-      </div>
+        <div class="filters__grid layout_filter active">
+          <svg class="filters__grid__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V6.33333H8.66667V0H0Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6667 0V9H19.3333V0H10.6667Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 0H30V7.33333H21.3333V0Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 9V19.3333H8.66667V9H0Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6667 11.6667H19.3333V21.6667H10.6667V11.6667Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 10V19.3333H30V10H21.3333Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 22H8.66667V30H0V22Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6667 24.3333V30H19.3333V24.3333H10.6667Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 22H30V30H21.3333V22Z" fill="white"/>
+          </svg>
+            
+        </div>
 
-      <div class="notice_detail__image">
-        <img src="" alt="" class="notice_detail__image__picture">
-      </div>
+        <div class="filters__list layout_filter">
+          <svg class="filters__list__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9091 1.36364H1.36364V6.81818H10.9091V1.36364ZM0 0V8.18182H12.2727V0H0Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9091 12.2727H1.36364V17.7273H10.9091V12.2727ZM0 10.9091V19.0909H12.2727V10.9091H0Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9091 23.1818H1.36364V28.6364H10.9091V23.1818ZM0 21.8182V30H12.2727V21.8182H0Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 1.36364L14.3181 1.36364V0L29.9999 0V1.36364Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 12.2727L14.3181 12.2727V10.9091L29.9999 10.9091V12.2727Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 23.1818L14.3181 23.1818V21.8182L29.9999 21.8182V23.1818Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 4.77272L14.3181 4.77272V3.40909L29.9999 3.40909V4.77272Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 15.6818L14.3181 15.6818V14.3182L29.9999 14.3182V15.6818Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 26.5909L14.3181 26.5909V25.2273L29.9999 25.2273V26.5909Z" fill="#A0A0A0"/>
+          </svg>            
+        </div>
 
-      <div class="notice_detail__first_part">
-        <div class="notice_detail__first_part__title">Título</div>
-
-        <div class="notice_detail__first_part__text">
-          orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem et proin mi,
-          aliquam accumsan gravida id. In elit imperdiet scelerisque nisl sem lobortis maecenas.
-          Volutpat tellus consectetur dictumst velit purus ullamcorper. Aliquet leo volutpat ipsum
-          in aliquet in. At ac ut magnis curabitur risus eros, adipiscing sed egestas. Convallis
-          amet egestas faucibus orci nibh fringilla facilisis blandit tristique. Tortor ipsum,
-          sit non ac. Felis neque gravida placerat imperdiet duis aliquam eget mauris, pellentesque.
-          Vestibulum arcu, nisi, id varius in. Volutpat tellus consectetur dictumst velit puru
-          ullamcorper. Aliquet leo volutpat ipsum in aliquet in. At ac ut magnis curabitur risus eros,
-          adipiscing sed egestas. Convallis amet egestas faucibus orci nibh fringilla facilisis
-          blandit tristique. Tortor ipsum, sit non ac. Felis neque gravida placerat imperdiet duis
-          aliquam eget mauris, pellentesque. Vestibulum arcu, nisi, id varius in.Aliquet leo volutpat
-          ipsum in aliquet in. At ac ut magnis curabitur risus eros, adipiscing sed egestas. Convalli
-          amet egestas faucibus orci nibh fringilla facilisis blandit tristique. Tortor ipsum, sit non ac.
+        <div class="filters__search filter">
+          <img src="../assets/img/search.svg" alt="" class="filters__search__icon">
         </div>
       </div>
+    </div>
 
-      <div class="notice_detail__second_part">
-        <div class="notice_detail__second_part__title">Título</div>
-
-        <div class="notice_detail__second_part__text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-          Aliquam lorem et proin mi, aliquam accumsan gravida id.
-          In elit imperdiet scelerisque nisl sem lobortis maecenas.
-          Volutpat tellus consectetur dictumst velit purus ullamcorper.
-          Aliquet leo volutpat ipsum in aliquet in. At ac ut magnis curabitu
-          risus eros, adipiscing sed egestas. Convallis amet egestas faucibus
-          orci nibh fringilla facilisis blandit tristique. Tortor ipsum, sit
-          non ac. Felis neque gravida placerat imperdiet duis aliquam eget mauris,
-          pellentesque. Vestibulum arcu, nisi, id varius in. Volutpat tellus
-          consectetur dictumst velit purus ullamcorper. Aliquet leo volutpat
-          ipsum in aliquet in. At ac ut magnis curabitur risus eros, adipiscing sed egestas
+    <div class="notice_list__cards cards">
+      <div class="cards__card">
+        <div class="cards__card__image">
+          <img src="https://picsum.photos/id/1/500/300" class="card__card__image__photo" alt="Imagem da notícia">
         </div>
-      </div>
-    
 
-      <div class="notice_detail__third_part">
-        <div class="notice_detail__third_part__title">Título</div>
+        <div class="cards__card__content">
+          <div class="cards__card__type">Notícia</div>
 
-        <div class="notice_detail__third_part__texts">
-          <div class="notice_detail__third_part__texts__left_column">
-            orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem et proin mi,
-            aliquam accumsan gravida id. In elit imperdiet scelerisque nisl sem lobortis maecenas.
-            Volutpat tellus consectetur dictumst velit purus ullamcorper. Aliquet leo volutpat ipsum
-            in aliquet in. At ac ut magnis curabitur risus eros, adipiscing sed egestas. Convallis
-            amet egestas faucibus orci nibh fringilla facilisis blandit tristique. Tortor ipsum,
-            sit non ac. Felis neque gravida placerat imperdiet duis aliquam eget mauris, pellentesque.
-            Vestibulum arcu, nisi, id varius in. Volutpat tellus consectetur dictumst velit puru
-            ullamcorper. Aliquet leo volutpat ipsum in aliquet in. At ac ut magnis curabitur risus eros,
-            adipiscing sed egestas. Convallis amet egestas faucibus orci nibh fringilla facilisis
-            blandit tristique. Tortor ipsum, sit non ac. Felis neque gravida placerat imperdiet duis
-            aliquam eget mauris, pellentesque. Vestibulum arcu, nisi, id varius in.Aliquet leo volutpat
-            ipsum in aliquet in. At ac ut magnis curabitur risus eros, adipiscing sed egestas. Convalli
-            amet egestas faucibus orci nibh fringilla facilisis blandit tristique. Tortor ipsum, sit non ac.
-          </div>
-          
-          <div class="notice_detail__third_part__texts__right_column">
-            orem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam lorem et proin mi,
-            aliquam accumsan gravida id. In elit imperdiet scelerisque nisl sem lobortis maecenas.
-            Volutpat tellus consectetur dictumst velit purus ullamcorper. Aliquet leo volutpat ipsum
-            in aliquet in. At ac ut magnis curabitur risus eros, adipiscing sed egestas. Convallis
-            amet egestas faucibus orci nibh fringilla facilisis blandit tristique. Tortor ipsum,
-            sit non ac. Felis neque gravida placerat imperdiet duis aliquam eget mauris, pellentesque.
-            Vestibulum arcu, nisi, id varius in. Volutpat tellus consectetur dictumst velit puru
-            ullamcorper. Aliquet leo volutpat ipsum in aliquet in. At ac ut magnis curabitur risus eros,
-            adipiscing sed egestas. Convallis amet egestas faucibus orci nibh fringilla facilisis
-            blandit tristique. Tortor ipsum, sit non ac. Felis neque gravida placerat imperdiet duis
-            aliquam eget mauris, pellentesque. Vestibulum arcu, nisi, id varius in.Aliquet leo volutpat
-            ipsum in aliquet in. At ac ut magnis curabitur risus eros, adipiscing sed egestas. Convalli
-            amet egestas faucibus orci nibh fringilla facilisis blandit tristique. Tortor ipsum, sit non ac.
+          <div class="cards__card__title">Novos investimentos</div>
+
+          <p class="cards__card__description">
+            Texto corrido de descrição do conteúdo do card
+          </p>
+
+          <div class="cards__card__release_and_see_more">
+            <div class="cards__card__release_and_see_more__release_date">Data de publicação</div>
+
+            <a href="pages/notice_detail.html?notice_name=Novos investimentos" class="cards__card__release_and_see_more__read_more">LER MAIS</a>
           </div>
         </div>
       </div>
 
-      <div class="notice_detail__last_part">
-        <div class="notice_detail__last_part__title">Título</div>
+      <div class="cards__card">
+        <div class="cards__card__image">
+          <img src="https://picsum.photos/id/1/500/300" class="card__card__image__photo" alt="Imagem da notícia">
+        </div>
 
-        <div class="notice_detail__last_part__left_column"></div>
+        <div class="cards__card__content">
+          <div class="cards__card__type">Notícia</div>
 
-        <div class="notice_detail__last_part__right_column"></div>
+          <div class="cards__card__title">Novos investimentos</div>
+
+          <p class="cards__card__description">
+            Texto corrido de descrição do conteúdo do card
+          </p>
+
+          <div class="cards__card__release_and_see_more">
+            <div class="cards__card__release_and_see_more__release_date">Data de publicação</div>
+
+            <a href="pages/notice_detail.html?notice_name=Novos investimentos" class="cards__card__release_and_see_more__read_more">LER MAIS</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards__card">
+        <div class="cards__card__image">
+          <img src="https://picsum.photos/id/1/500/300" class="card__card__image__photo" alt="Imagem da notícia">
+        </div>
+
+        <div class="cards__card__content">
+          <div class="cards__card__type">Notícia</div>
+
+          <div class="cards__card__title">Novos investimentos</div>
+
+          <p class="cards__card__description">
+            Texto corrido de descrição do conteúdo do card
+          </p>
+
+          <div class="cards__card__release_and_see_more">
+            <div class="cards__card__release_and_see_more__release_date">Data de publicação</div>
+
+            <a href="pages/notice_detail.html?notice_name=Novos investimentos" class="cards__card__release_and_see_more__read_more">LER MAIS</a>
+          </div>
+        </div>
       </div>
     </div>
   </main>
@@ -167,23 +177,23 @@
       <div class="footer__menu">
         <ul class="footer__menu__list">
           <li class="footer__menu__list__item">
-            <a href="" class="footer__menu__list__item__a">Sobre Nós</a>
+            <a href="about_us.html" class="footer__menu__list__item__a">Sobre Nós</a>
           </li>
 
           <li class="footer__menu__list__item">
-            <a href="" class="footer__menu__list__item__a">Notícias</a>
+            <a href="notice_list.html" class="footer__menu__list__item__a">Notícias</a>
           </li>
 
           <li class="footer__menu__list__item">
-            <a href="" class="footer__menu__list__item__a">Eventos</a>
+            <a href="events.html" class="footer__menu__list__item__a">Eventos</a>
           </li>
 
           <li class="footer__menu__list__item">
-            <a href="" class="footer__menu__list__item__a">Rotas</a>
+            <a href="routes.html" class="footer__menu__list__item__a">Rotas</a>
           </li>
 
           <li class="footer__menu__list__item">
-            <a href="" class="footer__menu__list__item__a">Contatos</a>
+            <a href="contact.html" class="footer__menu__list__item__a">Contatos</a>
           </li>
         </ul>
       </div>
@@ -198,6 +208,6 @@
     </div>
   </footer>
 
-  <script src="../assets/js/home.js"></script>
+  <script src="../assets/js/notice_list.js"></script>
 </body>
 </html>
