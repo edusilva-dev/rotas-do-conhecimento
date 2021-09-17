@@ -9,6 +9,9 @@
   <link rel="stylesheet" href="../assets/css/footer.css">
   <link rel="stylesheet" href="../assets/css/events.css">
   <title>Sobre nós</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 </head>
 <body>
   <header>
@@ -51,7 +54,160 @@
     </div>
   </header>
 
-  <main></main>
+  <main>
+
+    <div class="events__main_banner swiper">
+      <div class="swiper-wrapper">
+        <div class="events__main_banner__slide swiper-slide">
+          <img src="https://picsum.photos/1000/800" alt="">
+          <div class="events__main_banner__info">
+            <h4>INFO ADICIONAL</h4>
+            <h2>TÍTULO</h2>
+            <p>Descrição do conteúdo do banner</p>
+          </div>
+        </div>
+        <div class="events__main_banner__slide swiper-slide">
+          <img src="https://picsum.photos/1000/800" alt="">
+          <div class="events__main_banner__info">
+            <h4>INFO ADICIONAL</h4>
+            <h2>TÍTULO</h2>
+            <p>Descrição do conteúdo do banner</p>
+          </div>
+        </div>
+        <div class="events__main_banner__slide swiper-slide">
+          <img src="https://picsum.photos/1000/800" alt="">
+          <div class="events__main_banner__info">
+            <h4>INFO ADICIONAL</h4>
+            <h2>TÍTULO</h2>
+            <p>Descrição do conteúdo do banner</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="events__header">
+      <div class="events__header__title">Eventos das rotas do conhecimento</div>
+
+      <div class="events__header__filters filters">
+        <div class="filters__order_by filter">
+          Ordenar por: 
+          <div class="filters__order_by__container">
+            <span class="filters__order_by__container__selected">Data</span>
+
+            <div class="filters__order_by__container__select">
+              <div class="filters__order_by__container__select__option" data-order="date">Data</div>
+              <div class="filters__order_by__container__select__option" data-order="asc">A-Z</div>
+              <div class="filters__order_by__container__select__option" data-order="desc">Z-A</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="filters__grid layout_filter active">
+          <svg class="filters__grid__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0V6.33333H8.66667V0H0Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6667 0V9H19.3333V0H10.6667Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 0H30V7.33333H21.3333V0Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 9V19.3333H8.66667V9H0Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6667 11.6667H19.3333V21.6667H10.6667V11.6667Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 10V19.3333H30V10H21.3333Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0 22H8.66667V30H0V22Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6667 24.3333V30H19.3333V24.3333H10.6667Z" fill="white"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 22H30V30H21.3333V22Z" fill="white"/>
+          </svg>
+        </div>
+
+        <div class="filters__list layout_filter">
+          <svg class="filters__list__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9091 1.36364H1.36364V6.81818H10.9091V1.36364ZM0 0V8.18182H12.2727V0H0Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9091 12.2727H1.36364V17.7273H10.9091V12.2727ZM0 10.9091V19.0909H12.2727V10.9091H0Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9091 23.1818H1.36364V28.6364H10.9091V23.1818ZM0 21.8182V30H12.2727V21.8182H0Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 1.36364L14.3181 1.36364V0L29.9999 0V1.36364Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 12.2727L14.3181 12.2727V10.9091L29.9999 10.9091V12.2727Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 23.1818L14.3181 23.1818V21.8182L29.9999 21.8182V23.1818Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 4.77272L14.3181 4.77272V3.40909L29.9999 3.40909V4.77272Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 15.6818L14.3181 15.6818V14.3182L29.9999 14.3182V15.6818Z" fill="#A0A0A0"/>
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 26.5909L14.3181 26.5909V25.2273L29.9999 25.2273V26.5909Z" fill="#A0A0A0"/>
+          </svg>
+        </div>
+
+        <div class="filters__search filter">
+          <img src="../assets/img/search.svg" alt="" class="filters__search__icon">
+        </div>
+      </div>
+    </div>
+
+    <div class="events_list__cards cards">
+      <div class="cards__card" data-name="Novos investimentos" data-date="11/12/2021">
+        <div class="cards__card__image">
+          <img src="https://picsum.photos/id/1/500/300" class="card__card__image__photo" alt="Imagem da notícia">
+        </div>
+
+        <div class="cards__card__content">
+          <div class="cards__card__type">Notícia</div>
+
+          <div class="cards__card__title">Novos investimentos</div>
+
+          <p class="cards__card__description">
+            Texto corrido de descrição do conteúdo do card
+          </p>
+
+          <div class="cards__card__release_and_see_more">
+            <div class="cards__card__release_and_see_more__release_date">Data de publicação</div>
+
+            <a href="pages/notice_detail.html?notice_name=Novos investimentos" class="cards__card__release_and_see_more__read_more">SAIBA MAIS</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards__card" data-name="Provas onlines" data-date="10/10/2021">
+        <div class="cards__card__image">
+          <img src="https://picsum.photos/id/39/500/300" class="card__card__image__photo" alt="Imagem da notícia">
+        </div>
+
+        <div class="cards__card__content">
+          <div class="cards__card__type">Notícia</div>
+
+          <div class="cards__card__title">Provas onlines</div>
+
+          <p class="cards__card__description">
+            Texto corrido de descrição do conteúdo do card
+          </p>
+
+          <div class="cards__card__release_and_see_more">
+            <div class="cards__card__release_and_see_more__release_date">Data de publicação</div>
+
+            <a href="pages/notice_detail.html?notice_name=Novos investimentos" class="cards__card__release_and_see_more__read_more">SAIBA MAIS</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="cards__card" data-name="Infraestrutura melhorada" data-date="05/12/2021">
+        <div class="cards__card__image">
+          <img src="https://picsum.photos/id/42/500/300" class="card__card__image__photo" alt="Imagem da notícia">
+        </div>
+
+        <div class="cards__card__content">
+          <div class="cards__card__type">Notícia</div>
+
+          <div class="cards__card__title">Infraestrutura melhorada</div>
+
+          <p class="cards__card__description">
+            Texto corrido de descrição do conteúdo do card
+          </p>
+
+          <div class="cards__card__release_and_see_more">
+            <div class="cards__card__release_and_see_more__release_date">Data de publicação</div>
+
+            <a href="pages/notice_detail.html?notice_name=Novos investimentos" class="cards__card__release_and_see_more__read_more">SAIBA MAIS</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="events_list__more">VER MAIS</div>
+    </div>
+
+  </main>
 
   <footer>
     <a href="#header" class="footer__back_to_top">
@@ -98,5 +254,16 @@
       </p>
     </div>
   </footer>
+
+  <script>
+    const swiper = new Swiper('.swiper', {
+      direction: 'horizontal',
+      loop: true,
+    
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  </script>
 </body>
 </html>
