@@ -5,7 +5,6 @@
 
 function Order() {
   const orderBtn = document.querySelector('.filters__order_by__container')
-  const orderTypes = ['date', 'asc', 'desc']
 
   this.start = () => {
     orderBtn.addEventListener('click', () => {

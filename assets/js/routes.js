@@ -56,7 +56,7 @@ function Order() {
 
 function Filters() {
   const [grid, line] = Array.from(document.querySelectorAll('.layout_filter'))
-
+  
   this.start = () => {
     grid.addEventListener('click', () => {
       if (line.classList.contains('active')) line.classList.remove('active')

@@ -236,5 +236,80 @@
 }
 
 @media (max-width: 1280px) {
+  .about_us {
+    width: 100%;
+    padding: 0 30px;
+  }
 
+  .about_us__first_line {
+    flex-direction: column;
+  }
+
+  .about_us__first_line__image,
+  .about_us__first_line__text_container {
+    width: 100%;
+  }
+  
+  .about_us__first_line__text_container {
+    margin-top: 60px;
+  }
+
+  .about_us__second_line__text_container {
+    flex-direction: column;
+  }
+
+  .about_us__second_line__text_container__paragraph {
+    width: 100%;
+  }
+
+  .about_us__second_line__text_container__paragraph:last-child {
+    margin-top: 30px;
+  }
+
+  .about_us__building,
+  .about_us__building__content {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .about_us__building__content,
+  .about_us__building__content__image,
+  .about_us__building__content__text_content,
+  .about_us__building__text_container {
+    margin: 0;
+  }
+
+  .about_us__building__content__image,
+  .about_us__building__content__text_content,
+  .about_us__building__text_container,
+  .about_us__download_file,
+  .about_us__technical_team__cards {
+    width: 100%;
+  }
+
+  .about_us__building__content__text_content {
+    margin-top: 30px;
+  }
+
+  .about_us__building__text_container {
+    margin-top: 60px;
+  }
+
+  .about_us__download_file {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about_us__technical_team__cards {
+    margin: 80px 0;
+  }
+
+  .cards__card {
+    flex-direction: column;
+  }
+
+  .cards__card__infos {
+    margin-left: 0;
+    margin-top: 70px;
+  }
 }

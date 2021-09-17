@@ -1,93 +1,16 @@
-main {
+.routes {
   width: 1280px;
+
+  margin-top: 105px;
 }
 
-.events__main_banner {
-  margin: 75px 0 105px 0;
-}
-
-.swiper {
-  width: 100%;
-  max-width: 1124px;
-  height: 500px;
-}
-
-.swiper-wrapper .swiper-slide img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.swiper-pagination {
-  padding-left: 30px;
-  text-align: left !important;
-}
-
-.swiper-pagination span {
-  width: 14px !important;
-  height: 14px !important;
-  margin: 0 !important;
-  margin-right: 10px !important;
-}
-
-.swiper-pagination span:hover {
-  cursor: pointer;
-}
-
-.swiper-pagination-bullet {
-  border: 1px solid var(--grey)!important;
-
-  background-color: transparent!important;
-
-  opacity: 1!important;
-
-  transition: .12s ease-in-out;
-}
-
-.swiper-pagination-bullet-active {
-  background-color: var(--white)!important;
-}
-
-.events__main_banner__slide {
-  position: relative;
-}
-
-.events__main_banner__info {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  padding: 30px;
-}
-
-.events__main_banner__info h4 {
-  font-size: 24px;
-  margin-bottom: 6px;
-}
-
-.events__main_banner__info h2 {
-  font-size: 28px;
-  font-weight: 700;
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom: 3px solid white;
-}
-
-.events__main_banner__info p {
-  font-size: 16px;
-}
-
-/* ---------------- */
-
-.events__header {
+.routes__header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 80px;
 }
 
-.events__header__title {
+.routes__header__title {
   font-size: 28px;
   color: var(--white);
   text-transform: uppercase;
@@ -97,7 +20,7 @@ main {
   border-left: 2px solid var(--grey);
 }
 
-.events__header__filters {
+.routes__header__filters {
   display: flex;
   align-items: center;
 }
@@ -186,9 +109,7 @@ main {
   transition: .12s ease;
 }
 
-/* ---------------- */
-
-.events_list__cards {
+.routes__cards {
   width: 100%;
 
   margin-top: 75px;
@@ -298,25 +219,8 @@ main {
   filter: brightness(1.5);
 }
 
-.events_list__more {
-  color: #A0A0A0;
-  width: 100%;
-  margin-bottom: 135px;
-  font-size: 18px;
-  text-align: center;
-}
-
-.events_list__more span {
-  transition: .2s;
-}
-
-.events_list__more span:hover {
-  color: #fff;
-  cursor: pointer;
-}
-
 @media (max-width: 1280px) {
-  main {
+  .routes {
     width: 100%;
     padding: 0 30px;
   }

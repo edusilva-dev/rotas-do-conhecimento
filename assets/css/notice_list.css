@@ -218,3 +218,22 @@
 .cards__card__release_and_see_more__read_more:hover {
   filter: brightness(1.5);
 }
+
+@media (max-width: 1280px) {
+  .notice_list {
+    width: 100%;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .cards__card:not(.line) {
+    width: calc((100% / 2) - 30px)
+  }
+}
+
+@media (max-width: 720px) {
+  .cards__card:not(.line) {
+    width: 100%;
+  }
+}
