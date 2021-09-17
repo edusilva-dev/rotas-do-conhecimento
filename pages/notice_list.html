@@ -56,7 +56,18 @@
       <div class="notice_list__header__title">Notícias das rotas do conhecimento</div>
 
       <div class="notice_list__header__filters filters">
-        <div class="filters__order_by filter">Ordenar por: data</div>
+        <div class="filters__order_by filter">
+          Ordenar por: 
+          <div class="filters__order_by__container">
+            <span class="filters__order_by__container__selected">Data</span>
+
+            <div class="filters__order_by__container__select">
+              <div class="filters__order_by__container__select__option" data-order="date">Data</div>
+              <div class="filters__order_by__container__select__option" data-order="asc">A-Z</div>
+              <div class="filters__order_by__container__select__option" data-order="desc">Z-A</div>
+            </div>
+          </div>
+        </div>
 
         <div class="filters__grid layout_filter active">
           <svg class="filters__grid__icon" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -70,7 +81,6 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M10.6667 24.3333V30H19.3333V24.3333H10.6667Z" fill="white"/>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M21.3333 22H30V30H21.3333V22Z" fill="white"/>
           </svg>
-            
         </div>
 
         <div class="filters__list layout_filter">
@@ -84,7 +94,7 @@
             <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 4.77272L14.3181 4.77272V3.40909L29.9999 3.40909V4.77272Z" fill="#A0A0A0"/>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 15.6818L14.3181 15.6818V14.3182L29.9999 14.3182V15.6818Z" fill="#A0A0A0"/>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M29.9999 26.5909L14.3181 26.5909V25.2273L29.9999 25.2273V26.5909Z" fill="#A0A0A0"/>
-          </svg>            
+          </svg>
         </div>
 
         <div class="filters__search filter">
@@ -94,7 +104,7 @@
     </div>
 
     <div class="notice_list__cards cards">
-      <div class="cards__card">
+      <div class="cards__card" data-name="Novos investimentos" data-date="11/12/2021">
         <div class="cards__card__image">
           <img src="https://picsum.photos/id/1/500/300" class="card__card__image__photo" alt="Imagem da notícia">
         </div>
@@ -116,15 +126,15 @@
         </div>
       </div>
 
-      <div class="cards__card">
+      <div class="cards__card" data-name="Provas onlines" data-date="10/10/2021">
         <div class="cards__card__image">
-          <img src="https://picsum.photos/id/1/500/300" class="card__card__image__photo" alt="Imagem da notícia">
+          <img src="https://picsum.photos/id/39/500/300" class="card__card__image__photo" alt="Imagem da notícia">
         </div>
 
         <div class="cards__card__content">
           <div class="cards__card__type">Notícia</div>
 
-          <div class="cards__card__title">Novos investimentos</div>
+          <div class="cards__card__title">Provas onlines</div>
 
           <p class="cards__card__description">
             Texto corrido de descrição do conteúdo do card
@@ -138,15 +148,15 @@
         </div>
       </div>
 
-      <div class="cards__card">
+      <div class="cards__card" data-name="Infraestrutura melhorada" data-date="05/12/2021">
         <div class="cards__card__image">
-          <img src="https://picsum.photos/id/1/500/300" class="card__card__image__photo" alt="Imagem da notícia">
+          <img src="https://picsum.photos/id/42/500/300" class="card__card__image__photo" alt="Imagem da notícia">
         </div>
 
         <div class="cards__card__content">
           <div class="cards__card__type">Notícia</div>
 
-          <div class="cards__card__title">Novos investimentos</div>
+          <div class="cards__card__title">Infraestrutura melhorada</div>
 
           <p class="cards__card__description">
             Texto corrido de descrição do conteúdo do card
