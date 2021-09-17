@@ -99,9 +99,9 @@
 }
 
 .about_us__building__content {
-  width: calc(100% - (250px * 2));
+  width: calc(100% - (200px * 2));
 
-  margin: 0 250px;
+  margin: 0 200px;
 
   display: flex;
   flex-wrap: wrap;

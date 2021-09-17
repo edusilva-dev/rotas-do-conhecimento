@@ -1,0 +1,202 @@
+.contact {
+  width: 1280px;
+
+  margin-top: 105px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__title,
+.contact__talk_with_us__title {
+  font-size: 28px;
+  color: var(--white);
+  text-transform: uppercase;
+
+  padding-left: 15px;
+
+  border-left: 2px solid var(--grey);
+}
+
+.contact__contacts {
+  margin-top: 80px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cards__card {
+  width: 890px;
+
+  display: flex;
+}
+
+.cards__card:not(:first-child) {
+  margin-top: 75px;
+}
+
+.cards__card__image {
+  min-width: 295px;
+  height: 198px;
+}
+
+.cards__card__image__picture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cards__card__infos {
+  width: calc(100% - (295px + 60px));
+
+  margin-left: 60px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.cards__card__infos__title,
+.contact__contacts_in_line__infos__title {
+  font-size: 24px;
+  font-weight: 750;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.cards__card__infos__build_name,
+.contact__contacts_in_line__infos__build_name {
+  margin-top: 20px;
+}
+
+.cards__card__infos__build_name,
+.cards__card__infos__street,
+.cards__card__infos__city,
+.cards__card__infos__cep,
+.cards__card__infos__cellphones,
+.cards__card__infos__fax,
+.contact__contacts_in_line__infos__build_name,
+.contact__contacts_in_line__infos__street,
+.contact__contacts_in_line__infos__city,
+.contact__contacts_in_line__infos__cep,
+.contact__contacts_in_line__infos__cellphones,
+.contact__contacts_in_line__infos__fax {
+  font-size: 20px;
+  font-weight: 350;
+}
+
+.contact__contacts_in_line {
+  width: 890px;
+
+  margin-top: 75px;
+
+  display: flex;
+}
+
+.contact__contacts_in_line__infos {
+  width: calc(50% - 30px);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__contacts_in_line__infos:not(:first-child) {
+  margin-left: 60px;
+}
+
+.contact__contacts_in_line__infos__cellphones {
+  margin-top: 20px;
+}
+
+.contact__talk_with_us__title {
+  margin-top: 105px;
+}
+
+.contact__talk_with_us__form_container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 115px;
+}
+
+.contact__talk_with_us__form {
+  width: 1122px;
+
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 80px;
+}
+
+.form__input,
+.form__text_area,
+.form__button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.form__input {
+  width: 510px;
+
+  font-size: 20px;
+  color: var(--grey);
+
+  padding: 10px;
+
+  border-bottom: 1px solid var(--grey);
+}
+
+.form__input::placeholder {
+  font-style: italic;
+}
+
+.form__text_area {
+  width: 1122px;
+  height: 156px;
+
+  font-size: 20px;
+  color: var(--grey);
+
+  margin-top: 27px;
+  padding: 12px 14px;
+
+  resize: none;
+
+  border: 1px solid var(--grey);
+}
+
+.form__text_area::placeholder {
+  font-style: italic;
+}
+
+.form__button__container {
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__button {
+  width: fit-content;
+
+  color: var(--grey);
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: end;
+
+  margin-top: 18px;
+
+  cursor: pointer;
+
+  transition: .12s ease-in-out;
+}
+
+.form__button:hover {
+  filter: brightness(1.5);
+}
